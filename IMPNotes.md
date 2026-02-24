@@ -49,7 +49,9 @@ first assigns count the value 19, assigns incr the value 10,
 then adds 1 to count, and finally, assigns var the value of the rightmost expression,  
 count+1, which is 20  
 
-Making i and j loop with comma operator instead of traditional :  
+Making i and j loop with comma operator 
+
+instead of traditional :  
 ```
 for (int i ...){
     for (int j...){
