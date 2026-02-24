@@ -23,6 +23,17 @@ int main_Commaoperator(int argc, char const *argv[]) {
     std::cout << "Value of a : " << a << "\n";
     std::cout << "Value of b : " << b << "\n";
     std::cout << "Value of c : " << c << "\n";
+
+    //Making i and j loop with comma operator instead of traditional 
+    // for (int i ...){
+    //      for (int j...){
+    //      }
+    // }
+
+    for (int i = 0, j = 10; i <= 10; i++, j--){
+        std::cout << "i: " << i << ",\tj: " << j << "\n";
+    }
+
     return 0;
 }
 

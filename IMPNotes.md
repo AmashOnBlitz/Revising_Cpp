@@ -48,7 +48,22 @@ var = (count = 19, incr = 10, count+1);
 first assigns count the value 19, assigns incr the value 10,  
 then adds 1 to count, and finally, assigns var the value of the rightmost expression,  
 count+1, which is 20  
-  
+
+Making i and j loop with comma operator instead of traditional :  
+```
+for (int i ...){
+    for (int j...){
+
+    }
+}
+```  
+We will use :  
+```
+for (int i = 0, j = 10; i <= 10; i++, j--){
+    std::cout << "i: " << i << ",\tj: " << j << "\n";
+}
+```
+
 refer to CommaOperator.h  
   
 ---
