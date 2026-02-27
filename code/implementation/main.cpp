@@ -6,6 +6,7 @@
 #include "CommaOperator.h"
 #include "StrCopy.h"
 #include "gotoStatement.h"
+#include "FunctionParameters.h"
 
 int main(int argc, char const *argv[]){
     // main_Integers(argc,argv);.
@@ -15,6 +16,7 @@ int main(int argc, char const *argv[]){
     // main_Dateandtime(argc,argv);
     // main_Commaoperator(argc,argv);
     // main_Strcopy(argc,argv);
-    main_Gotostatement(argc,argv);
+    // main_Gotostatement(argc,argv);
+    main_Functionparameters(argc,argv);
     return 0;
 }
