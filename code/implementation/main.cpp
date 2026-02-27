@@ -5,6 +5,7 @@
 #include "DateAndTime.h"
 #include "CommaOperator.h"
 #include "StrCopy.h"
+#include "gotoStatement.h"
 
 int main(int argc, char const *argv[]){
     // main_Integers(argc,argv);.
@@ -13,6 +14,7 @@ int main(int argc, char const *argv[]){
     // main_Randomnumber(argc,argv);
     // main_Dateandtime(argc,argv);
     // main_Commaoperator(argc,argv);
-    main_Strcopy(argc,argv);
+    // main_Strcopy(argc,argv);
+    main_Gotostatement(argc,argv);
     return 0;
 }
